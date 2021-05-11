@@ -1,0 +1,4 @@
+node_modules/
+module-products/node_modules
+module-settings/node_modules
+app/node_modules

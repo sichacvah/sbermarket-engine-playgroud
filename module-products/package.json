@@ -1,0 +1,21 @@
+{
+  "name": "module-products",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "",
+  "main": "./src/module.ts",
+  "scripts": {
+    "android": "rn-engine -p engineConfig.json -a",
+    "config": "rn-config",
+    "postinstall": "rm -fr node_modules/module-settings/node_modules"
+  },
+  "dependencies": {
+    "module-settings": "../module-settings"
+  },
+  "devDependencies": {
+    "react-native-sbermarket-engine": "0.0.4"
+  },
+  "peerDependencies": {
+    "react-native-sbermarket-engine": "*"
+  }
+}

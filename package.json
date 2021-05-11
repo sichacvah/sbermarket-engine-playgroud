@@ -1,0 +1,10 @@
+{
+  "name": "engine-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.5",
+    "@types/react-native": "^0.64.5"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "modules": [
+    "module-products",
+    "module-settings"
+  ]
+}

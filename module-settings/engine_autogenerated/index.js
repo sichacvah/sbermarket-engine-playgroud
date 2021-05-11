@@ -1,0 +1,1 @@
+require('../node_modules/react-native-sbermarket-engine/index')

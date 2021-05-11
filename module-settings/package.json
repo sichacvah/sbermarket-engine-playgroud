@@ -1,0 +1,17 @@
+{
+  "name": "module-settings",
+  "version": "0.0.2",
+  "license": "MIT",
+  "main": "./src/module.ts",
+  "description": "",
+  "scripts": {
+    "android": "rn-engine -p engineConfig.json -a"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "react-native-sbermarket-engine": "0.0.4"
+  },
+  "peerDependencies": {
+    "react-native-sbermarket-engine": "*"
+  }
+}

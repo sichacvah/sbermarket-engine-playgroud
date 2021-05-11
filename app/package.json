@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "",
+  "scripts": {
+    "android": "rn-engine -p engineConfig.json -a",
+    "postinstall": "rm -fr node_modules/module-settings/node_modules && rm -fr node_modules/module-products/node_modules"
+  },
+  "dependencies": {
+    "module-products": "../module-products",
+    "module-settings": "../module-settings",
+    "react-native-sbermarket-engine": "0.0.4"
+  },
+  "devDependencies": {}
+}
